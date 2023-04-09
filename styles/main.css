@@ -1,3 +1,41 @@
 body{
-    background-color: aquamarine;
+    background-color: rgb(77, 78, 78);
+}
+header{
+    background-color: #ece17d;
+    width: auto;
+    height: auto;
+    padding: 20px 5px;
+    margin: 5px;
+}
+nav{
+    background-color: #fff;
+    width: auto;
+    padding: 20px 5px;
+    margin: 5px;
+}
+div{
+    background-color: #ece17d;
+    width: auto;
+    height: 300px;
+    margin: 5px;
+}
+section{
+    background-color: beige;
+    width: auto;
+    height: 100px;
+    margin: 5px;
+}
+article{
+    background-color: blanchedalmond;
+    width: auto;
+    height: 100px;
+    margin: 5px;
+}
+footer{
+    background-color: azure;
+    width: auto;
+    height: 50px;
+    margin: 5px;
+
 }
