@@ -13,13 +13,16 @@ nav{
     width: auto;
     padding: 20px 5px;
     margin: 5px;
-}
+    }
+li{
+display: inline;
+    }
 div{
-    background-color: #ece17d;
+    background-color: #f8f8f5;
     width: auto;
-    height: 300px;
+    height: 586px;
     margin: 5px;
-}
+    }
 section{
     background-color: beige;
     width: auto;
