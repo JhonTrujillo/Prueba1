@@ -1,28 +1,49 @@
 body{
-    background-color: rgb(77, 78, 78);
+    background-color: #ecf0f0;
+    width: auto;
+    height: auto;
 }
 header{
     background-color: #ece17d;
     width: auto;
-    height: auto;
-    padding: 20px 5px;
-    margin: 5px;
+    height: 50px;
+    padding: 1px 1px;
+    margin: 1px;   
+}
+.divheader #logo{
+    width: 50px;
+    height: 50px;
+    float:right;
 }
 nav{
     background-color: #fff;
     width: auto;
     padding: 20px 5px;
     margin: 5px;
-    }
-li{
-display: inline;
-    }
-div{
-    background-color: #f8f8f5;
-    width: auto;
-    height: 586px;
-    margin: 5px;
-    }
+}
+.divnav ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+.divnav li{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0 ;
+}
+.divnav li a{
+    padding: 2px 7px 2px 7px;
+    background-color: rgb(231, 240, 110);
+    border: 1px solid:#ece17d;
+}
+.divbanner{
+    display: flex;
+    justify-content: center;
+}
+.divbanner img{
+    width: 700px;
+    height: 400px;;
+ }
 section{
     background-color: beige;
     width: auto;
@@ -38,7 +59,13 @@ article{
 footer{
     background-color: azure;
     width: auto;
-    height: 50px;
+    height: auto;
     margin: 5px;
-
+}
+.divfooter a{
+    display: flex;
+    justify-content: center;  
+}
+.divfooter img{
+    
 }
