@@ -3,7 +3,7 @@ body{
     width: auto;
     height: auto;
 }
-#titulo{
+.titulo{
     display: inline;
 }
 header{
@@ -16,6 +16,8 @@ header{
 .divheader{
     display: flex;
     justify-content: flex-end;
+    position: relative;
+    bottom: 20px;
 }
 .divheader #logo{
     width: 50px;
