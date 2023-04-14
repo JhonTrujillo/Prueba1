@@ -3,6 +3,9 @@ body{
     width: auto;
     height: auto;
 }
+#titulo{
+    display: inline;
+}
 header{
     background-color: #ece17d;
     width: auto;
@@ -10,10 +13,13 @@ header{
     padding: 1px 1px;
     margin: 1px;   
 }
+.divheader{
+    display: flex;
+    justify-content: flex-end;
+}
 .divheader #logo{
     width: 50px;
     height: 50px;
-    float:right;
 }
 nav{
     background-color: #fff;
@@ -25,7 +31,6 @@ nav{
     list-style-type: none;
     text-align: center;
 }
-
 .divnav li{
     display: inline;
     text-align: center;
@@ -62,10 +67,8 @@ footer{
     height: auto;
     margin: 5px;
 }
-.divfooter a{
+.divfooter {
     display: flex;
-    justify-content: center;  
+    justify-content: space-between;
 }
-.divfooter img{
-    
-}
+
