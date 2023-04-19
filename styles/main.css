@@ -5,13 +5,15 @@ body{
 }
 .titulo{
     display: inline;
+    position: absolute;
+    top: 15px;
 }
 header{
     background-color: #ece17d;
     width: auto;
     height: 50px;
     padding: 1px 1px;
-    margin: 1px;   
+    margin: 5px;   
 }
 .divheader{
     display: flex;
@@ -22,12 +24,27 @@ header{
 .divheader #logo{
     width: 50px;
     height: 50px;
+    position: absolute;
+    left: 150px;
+    top: 20px;
+    
+}
+.divheader #login{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    right: 15px;
+    
 }
 nav{
-    background-color: #fff;
     width: auto;
-    padding: 20px 5px;
+    height: 30px;
+    padding: 5px 5px;
     margin: 5px;
+    position: absolute;
+    top: 15px;
+    right: 800px;
 }
 .divnav ul{
     list-style-type: none;
@@ -36,7 +53,7 @@ nav{
 .divnav li{
     display: inline;
     text-align: center;
-    margin: 0 10px 0 0 ;
+    margin: 0 0 0 0 ;
 }
 .divnav li a{
     padding: 2px 7px 2px 7px;
@@ -72,5 +89,44 @@ footer{
 .divfooter {
     display: flex;
     justify-content: space-between;
+    position: relative;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
 }
+.divfooter #siguenos{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+.divfooter #instagram{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 80px;
+    top: 20px;
+}
+.divfooter #facebook{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 130px;
+    top: 20px;
+}
+.divfooter #twitter{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 180px;
+    top: 20px;
+}
+.divfooter{
+    
+
+}
+
+
+
+
+
 
