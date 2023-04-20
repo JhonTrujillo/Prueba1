@@ -1,13 +1,16 @@
+/* color fondo y dimensiones del body*/
 body{
     background-color: #ecf0f0;
     width: auto;
     height: auto;
 }
+/* orientacion de titulo*/
 .titulo{
     display: inline;
     position: absolute;
     top: 15px;
 }
+/*Encabezado*/
 header{
     background-color: #ece17d;
     width: auto;
@@ -21,22 +24,23 @@ header{
     position: relative;
     bottom: 20px;
 }
+/*orientacion y tamaño de imagen de logo*/
 .divheader #logo{
     width: 50px;
     height: 50px;
     position: absolute;
     left: 150px;
     top: 20px;
-    
 }
+/*Orientacion y tamaño de imagen de login*/
 .divheader #login{
     width: 30px;
     height: 30px;
     position: absolute;
     top: 30px;
     right: 15px;
-    
 }
+/*orientacion y tamaño de la barra de navegacion */
 nav{
     width: auto;
     height: 30px;
@@ -45,7 +49,7 @@ nav{
     position: absolute;
     top: 15px;
     right: 800px;
-}
+}/*item del menu de barra de navegacion*/
 .divnav ul{
     list-style-type: none;
     text-align: center;
@@ -60,14 +64,52 @@ nav{
     background-color: rgb(231, 240, 110);
     border: 1px solid:#ece17d;
 }
-.divbanner{
-    display: flex;
-    justify-content: center;
+#contitembanner{
+    border: 5px;
+    height: 400px;
+    overflow: hidden;
 }
-.divbanner img{
-    width: 700px;
-    height: 400px;;
- }
+
+.itembanner{
+    width: auto;
+    height: 100%;
+    position: relative;
+}
+.imgbanner{
+    height: 100%;
+}
+.flechasbanner{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px;
+}
+#contpuntos{
+    background-color: beige;
+    display: flex;
+    justify-content:space-around ;
+}
+/* colores de fondo antes de ingresar imagenes al banner
+#imgbanner-1{
+    background-color: #ece17d;
+}
+#imgbanner-2{
+    background-color: #7d8eec;
+}
+#imgbanner-3{
+    background-color: #c7824a;
+}
+*/
+/*quita el subrayado de un hipervinculo*/
+a{
+   text-decoration: none; 
+}
+
 section{
     background-color: beige;
     width: auto;
