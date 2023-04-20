@@ -109,12 +109,24 @@ nav{
 a{
    text-decoration: none; 
 }
-
-section{
-    background-color: beige;
-    width: auto;
-    height: 100px;
-    margin: 5px;
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 20px;
+    
+}
+.itemcard{
+    max-width: 350px;
+    width: 30% ;
+    box-shadow:0 0 5px chocolate ;
+    text-align: center;
+    padding: 40px 0;
+    
+}
+#cardimg{
+    
+    
 }
 article{
     background-color: blanchedalmond;
