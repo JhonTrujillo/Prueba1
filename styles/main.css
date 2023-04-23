@@ -16,19 +16,20 @@ header{
     width: auto;
     height: 50px;
     padding: 1px 1px;
-    margin: 5px;   
+    margin: 1px;   
 }
 .divheader{
     display: flex;
-    justify-content: flex-end;
+    position: absolute;
+    justify-content: center;
     position: relative;
     bottom: 20px;
 }
 /*orientacion y tamaño de imagen de logo*/
 .divheader #logo{
+    position: absolute;
     width: 50px;
     height: 50px;
-    position: absolute;
     left: 150px;
     top: 20px;
 }
@@ -41,35 +42,34 @@ header{
     right: 15px;
 }
 /*orientacion y tamaño de la barra de navegacion */
-nav{
-    width: auto;
-    height: 30px;
-    padding: 5px 5px;
-    margin: 5px;
-    position: absolute;
-    top: 15px;
-    right: 800px;
+#contnavegador{
+    background-color: rgb(221, 223, 100);
+        
 }/*item del menu de barra de navegacion*/
 .divnav ul{
     list-style-type: none;
     text-align: center;
+    overflow: hidden;
 }
 .divnav li{
     display: inline;
+    position: relative;
+    justify-content: center;
     text-align: center;
-    margin: 0 0 0 0 ;
 }
 .divnav li a{
-    padding: 2px 7px 2px 7px;
-    background-color: rgb(231, 240, 110);
+    padding: 2px 2px 2px 2px;
+    /*background-color: rgb(231, 240, 110);*/
     border: 1px solid:#ece17d;
 }
+.divnav li a:hover {
+    background-color: gold;
+  }
 #contitembanner{
     border: 5px;
     height: 400px;
     overflow: hidden;
 }
-
 .itembanner{
     width: auto;
     height: 100%;
@@ -106,9 +106,12 @@ nav{
 }
 */
 /*quita el subrayado de un hipervinculo*/
-a{
+a {
    text-decoration: none; 
 }
+a:hover {
+    background-color: gold;
+  }
 .card {
     display: flex;
     align-items: center;
@@ -131,31 +134,28 @@ article{
     height: 100px;
     margin: 5px;
 }
-footer{
+.footer{
     background-color: azure;
+    display: flex;
     width: auto;
     height: auto;
     margin: 5px;
 }
 .divfooter {
     display: flex;
-    justify-content: space-between;
+    width: auto;
+    height: auto;
+    justify-content:space-evenly;
     position: relative;
     bottom: 20px;
-    width: 50px;
-    height: 50px;
+    
 }
 .redes{
     display: flex;
-    justify-content: space-between;
-    position: absolute;
-    top: 50px;
-    left: 700px;
-    padding: 5px;
+    margin-top: 50px;
 }
 #correo{
     display: flex;
-    justify-content: space-between;
     position: absolute;
-    top: 60px;
+    margin-top: 70px;
 }
