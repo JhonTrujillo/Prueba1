@@ -1,25 +1,25 @@
 /* color fondo y dimensiones del body*/
 body{
-    background-color: #ecf0f0;
+    background-color: #f3ecc5;
     width: auto;
     height: auto;
 }
 /* orientacion de titulo*/
 .titulo{
-    display: inline;
     position: absolute;
-    top: 15px;
+    top: 40px;
+    left: 30px;
 }
 /*Encabezado*/
 header{
     background-color: #ece17d;
     width: auto;
-    height: 50px;
+    height: 70px;
     padding: 1px 1px;
     margin: 1px;   
+    border-radius: 15px;
 }
 .divheader{
-    display: flex;
     position: absolute;
     justify-content: center;
     position: relative;
@@ -28,47 +28,39 @@ header{
 /*orientacion y tamaño de imagen de logo*/
 .divheader #logo{
     position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 150px;
+    width:50px;
+    height:50px;
+    left: 70px;0px;
     top: 20px;
 }
 /*Orientacion y tamaño de imagen de login*/
 .divheader #login{
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     position: absolute;
     top: 30px;
     right: 15px;
 }
 /*orientacion y tamaño de la barra de navegacion */
-#contnavegador{
-    background-color: rgb(221, 223, 100);
-        
-}/*item del menu de barra de navegacion*/
-.divnav ul{
-    list-style-type: none;
-    text-align: center;
-    overflow: hidden;
-}
-.divnav li{
-    display: inline;
+#contnavegador{}
+nav{} 
+
+/*item menu de barra de navegacion*/
+.divnav{
+    width: 30%;
+    margin: auto;
+    top: 30px;
     position: relative;
-    justify-content: center;
     text-align: center;
 }
-.divnav li a{
-    padding: 2px 2px 2px 2px;
-    /*background-color: rgb(231, 240, 110);*/
-    border: 1px solid:#ece17d;
+.divnav a{
+    padding: 10px 10px;
 }
-.divnav li a:hover {
-    background-color: gold;
-  }
+
 #contitembanner{
-    border: 5px;
     height: 400px;
     overflow: hidden;
+    margin-top: 5px;
 }
 .itembanner{
     width: auto;
@@ -90,9 +82,13 @@ header{
     padding: 1px;
 }
 #contpuntos{
-    background-color: beige;
     display: flex;
-    justify-content:space-around ;
+    position: relative;
+    justify-content:space-around;
+    font-size: 30px;
+    color:rgb(189, 34, 34);
+    z-index: 1;
+    top: -34px;
 }
 /* colores de fondo antes de ingresar imagenes al banner
 #imgbanner-1{
@@ -117,7 +113,6 @@ a:hover {
     align-items: center;
     justify-content: space-evenly;
     top: 20px;
-    
 }
 .itemcard{
     max-width: 350px;
@@ -125,6 +120,7 @@ a:hover {
     box-shadow:0 0 5px chocolate ;
     text-align: center;
     padding: 40px 0;
+    border-radius: 15px;
     
 }
 #cardimg{}
@@ -135,27 +131,28 @@ article{
     margin: 5px;
 }
 .footer{
-    background-color: azure;
     display: flex;
     width: auto;
     height: auto;
-    margin: 5px;
+    margin: 1px;
 }
 .divfooter {
+    background-color: #ece17d;
     display: flex;
     width: auto;
-    height: auto;
+    height: 70px;
     justify-content:space-evenly;
     position: relative;
-    bottom: 20px;
+    top: 20px;
+    border-radius: 15px;
     
 }
 .redes{
     display: flex;
-    margin-top: 50px;
+    margin-top: 5px;
 }
 #correo{
     display: flex;
     position: absolute;
-    margin-top: 70px;
+    margin-top: 50px;
 }
