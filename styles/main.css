@@ -175,3 +175,37 @@ article{
     text-align: center;
     margin: auto;
 }
+
+/* estilos tabla horarios en horarios.html*/
+.horario{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    padding: 10px 10px;
+}
+table{
+    margin: auto;
+    border-collapse: collapse;
+}
+th,td {
+    border-style: ridge;
+    padding: 5px;
+}
+thead>tr>th{
+    background-color: gold;
+}
+thead>tr>th:hover{
+    background-color: rgb(211, 235, 106);
+}
+#hora{
+    background-color: gold;  
+}
+tbody>tr>td{
+    background-color: beige;
+}
+tbody>tr>td:hover{
+    background-color: yellowgreen;
+}
+
+
+
