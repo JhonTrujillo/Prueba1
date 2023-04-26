@@ -19,8 +19,10 @@ header{
     margin: 1px;   
     border-radius: 15px;
 }
+header .divheader{
+    
+}
 .divheader{
-    position: absolute;
     justify-content: center;
     position: relative;
     bottom: 20px;
@@ -41,21 +43,77 @@ header{
     top: 30px;
     right: 15px;
 }
-/*orientacion y tamaño de la barra de navegacion */
-#contnavegador{}
-nav{} 
-
 /*item menu de barra de navegacion*/
-.divnav{
-    width: 30%;
-    margin: auto;
-    top: 30px;
+/* menu */
+#menu ul {
+    display: flex;
+    justify-content: center;
+    list-style:none;
+    padding:5px 5px;
+    z-index: 1;
+    
+}
+   
+   /* items del menu */
+   
+#menu ul li {
+    background-color:#ece17d;
+    float: left;
+    display: flex;
     position: relative;
-    text-align: center;
 }
-.divnav a{
-    padding: 10px 10px;
+   
+   /* enlaces del menu */
+#menu ul a {
+   
+    font-size:15px;
+    padding:3px;
+    letter-spacing:1px;
 }
+   
+   /* items del menu */
+ #menu ul li {
+    position:relative;
+    justify-content: center;
+    
+    margin:0;
+    padding:0;
+   }
+   
+   /* efecto al pasar el ratón por los items del menu */
+   
+   #menu ul li:hover {
+    
+   }
+/* menu desplegable */
+#menu ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    padding:0;
+   }
+   
+   /* items del menu desplegable */
+   
+   #menu ul ul li {
+    float:none;
+    width:150px
+   }
+   
+   /* enlaces de los items del menu desplegable */
+   
+   #menu ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+   }
+   
+   /* items del menu desplegable al pasar el ratón */
+   
+   #menu ul li:hover > ul {
+    display:block;
+   }
+
 
 #contitembanner{
     height: 400px;
