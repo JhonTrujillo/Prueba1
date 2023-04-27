@@ -221,6 +221,7 @@ article{
     overflow: auto;
     float: left;
     padding: 10px;
+    
 }
 .vision{
     text-align: center;
@@ -232,6 +233,7 @@ article{
     width: 70%;
     text-align: center;
     margin: auto;
+    
 }
 
 /* estilos tabla horarios en horarios.html*/
@@ -265,17 +267,18 @@ tbody>tr>td:hover{
     background-color: yellowgreen;
 }
 /* Formulario login.html */
+/*Contenedor div*/
+.formlogin{
+    display: flex;
+    width: auto;
+    height: 480px;
+}
 form{
     position: absolute;
     top: 100px;
     left: 35%;
     width: 30%;
     text-align: center;
-}
-.formlogin{
-    display: flex;
-    width: auto;
-    height: 480px;
 }
 .formlogin img{
     width: 30%;
@@ -313,7 +316,26 @@ form button:hover{
     text-align: center;
 }
 
-
+/*Formulacion de contactos html*/
+/*Contenedor div formcontactos*/
+.formcontactos{
+    border: 3px solid chocolate;
+    display: flex;
+    width: 50%;
+    height: 480px;
+    overflow: auto;
+    float: right;
+    padding: 10px;
+    
+}
+/*formulario formulariocontactos*/
+.formcontactos>form{
+    position: absolute;
+    top: 100px;
+    left: 60%;
+    width: 30%;
+    
+}
 
 
 
