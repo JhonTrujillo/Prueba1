@@ -1,0 +1,66 @@
+#contitembanner{
+    height: 400px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+.itembanner{
+    width: auto;
+    height: 100%;
+    position: relative;
+}
+.imgbanner{
+    height: 100%;
+}
+/*div contenedor flechas banner*/
+.flechasbanner{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px;
+}
+/*div contenedor puntos para desplegar el banner */
+#contpuntos{
+    display: flex;
+    position: relative;
+    justify-content:space-around;
+    font-size: 30px;
+    color:rgb(189, 34, 34);
+    z-index: 1;
+    top: -34px;
+}
+/*quita el subrayado de un hipervinculo*/
+a {
+   text-decoration: none; 
+}
+/*Cambio de color menu navegacion*/
+a:hover {
+    background-color: gold;
+}
+/* div card*/
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 20px;
+}
+.itemcard{
+    max-width: 350px;
+    width: 30% ;
+    box-shadow:0 0 5px chocolate ;
+    text-align: center;
+    padding: 40px 0;
+    border-radius: 15px;
+    
+}
+#cardimg{}
+article{
+    background-color: blanchedalmond;
+    width: auto;
+    height: 100px;
+    margin: 5px;
+}

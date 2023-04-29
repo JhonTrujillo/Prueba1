@@ -115,79 +115,6 @@ header .divheader{
    }
 
 
-#contitembanner{
-    height: 400px;
-    overflow: hidden;
-    margin-top: 5px;
-}
-.itembanner{
-    width: auto;
-    height: 100%;
-    position: relative;
-}
-.imgbanner{
-    height: 100%;
-}
-.flechasbanner{
-    height: 100%;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1px;
-}
-#contpuntos{
-    display: flex;
-    position: relative;
-    justify-content:space-around;
-    font-size: 30px;
-    color:rgb(189, 34, 34);
-    z-index: 1;
-    top: -34px;
-}
-/* colores de fondo antes de ingresar imagenes al banner
-#imgbanner-1{
-    background-color: #ece17d;
-}
-#imgbanner-2{
-    background-color: #7d8eec;
-}
-#imgbanner-3{
-    background-color: #c7824a;
-}
-*/
-/*quita el subrayado de un hipervinculo*/
-a {
-   text-decoration: none; 
-}
-a:hover {
-    background-color: gold;
-  }
-.card {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    top: 20px;
-}
-.itemcard{
-    max-width: 350px;
-    width: 30% ;
-    box-shadow:0 0 5px chocolate ;
-    text-align: center;
-    padding: 40px 0;
-    border-radius: 15px;
-    
-}
-#cardimg{}
-article{
-    background-color: blanchedalmond;
-    width: auto;
-    height: 100px;
-    margin: 5px;
-}
 .footer{
     display: flex;
     width: auto;
@@ -203,7 +130,6 @@ article{
     position: relative;
     top: 20px;
     border-radius: 15px;
-    
 }
 .redes{
     display: flex;
@@ -214,58 +140,9 @@ article{
     position: absolute;
     margin-top: 50px;
 }
-/*Estilos Css para quienessomos.html*/
-.mision{
-    width: 50%;
-    text-align: center;
-    overflow: auto;
-    float: left;
-    padding: 10px;
-    
-}
-.vision{
-    text-align: center;
-    margin-top: 10px;
-    padding: 10px;
-    
-}
-.valores{
-    width: 70%;
-    text-align: center;
-    margin: auto;
-    
-}
 
-/* estilos tabla horarios en horarios.html*/
-.horario{
-    width: 70%;
-    text-align: center;
-    margin: auto;
-    padding: 10px 10px;
-}
-table{
-    margin: auto;
-    border-collapse: collapse;
-}
-th,td {
-    border-style: ridge;
-    padding: 5px;
-}
-thead>tr>th{
-    background-color: gold;
-}
-thead>tr>th:hover{
-    background-color: rgb(211, 235, 106);
-}
-#hora{
-    background-color: gold;  
-}
-tbody>tr>td{
-    background-color: beige;
-}
-tbody>tr>td:hover{
-    background-color: yellowgreen;
-}
+
+
 /* Formulario login.html */
 /*Contenedor div*/
 .formlogin{
