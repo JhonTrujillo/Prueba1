@@ -1,34 +1,52 @@
 /*Formulacion de contactos html*/
 /*contenedor div formulario*/
-.formcontacto{
-    display: flex;
-    width: auto;
-    height: 250px;
-}
-.formcontacto>section>form{
-    position: absolute;
-    top: 100px;
-    left: 35%;
-    width: 30%;
-    height: 300px;
-    text-align: center;
-    border: 3px solid red;
-}
-.formcontacto>section>form>input{
-width: 80%;
-    margin-bottom: 10px;
-    padding: 10px;
+/* .formcontacto{
+  border: 5px solid red;
+  width: 50%;
+} */
+form{
+    width: 40%;
+    margin-top: 20px;
+    float: left;
+    margin-left: 50px;
+    margin-right: 100px;
+    border: 3px solid chocolate;
     border-radius: 15px;
-    border-color: violet;
+}
+form>input{
+    width: 90%;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 20px;
+    border-radius: 15px;
+    border-color: gold;
     font-size: 15px;
 }
-.formcontacto>section>form>input>h3{
-    position: relative;
-    top: 100px
-    left: 50px;
+form>textarea{
+    margin-top: 5px;
+    margin-left: 30px;
 }
-/*Contenedor aside video mapa*/
-.asidevideomapa{
-    display: inline;
+form button{
+    background-color: gold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 30%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px chocolate;
+    font-size: 20px;
+    margin-left: 180px;
 }
+form button:hover{
+    color: chocolate;
+    width: 75%;
+}
+iframe{
+    width: 500px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
 
