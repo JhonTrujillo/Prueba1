@@ -112,6 +112,7 @@ header .divheader{
    
    #menu ul li:hover > ul {
     display:block;
+    color: gold;
    }
 
 
