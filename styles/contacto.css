@@ -41,7 +41,12 @@ form button:hover{
     color: chocolate;
     width: 75%;
 }
+.contenedoriframe{
+    
+}
 iframe{
+    display: inline-flex;
+    flex-direction: column;
     width: 500px;
     height: 300px;
     margin-top: 20px;
