@@ -1,56 +1,75 @@
 /*Formulacion de contactos html*/
-/*contenedor div formulario*/
-/* .formcontacto{
-  border: 5px solid red;
-  width: 50%;
-} */
+.contformulario{
+   
+    width: auto;
+    height: 1000px;
+}
+
 form{
+    display: flex;
+    flex-wrap: wrap;
     width: 40%;
-    margin-top: 20px;
-    float: left;
-    margin-left: 50px;
+    margin-top: 200px;
+    margin-left: 250px;
     margin-right: 100px;
-    border: 3px solid chocolate;
+    border: 3px solid gray;
     border-radius: 15px;
+    float: left;
+    background-color: whitesmoke;
+    
 }
 form>input{
     width: 90%;
     height: 30px;
-    margin-top: 5px;
+    margin-top: 10px;
     margin-left: 20px;
+    margin-bottom: 10px;
     border-radius: 15px;
-    border-color: gold;
+    border-color: gray;
     font-size: 15px;
 }
 form>textarea{
-    margin-top: 5px;
-    margin-left: 30px;
+    
+    margin:auto;
 }
 form button{
-    background-color: gold;
+    background-color: gray;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px;
     width: 30%;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px chocolate;
+    box-shadow: 5px 5px 5px whitesmoke;
     font-size: 20px;
-    margin-left: 180px;
+    margin-left: 290px;
 }
 form button:hover{
-    color: chocolate;
-    width: 75%;
+    color: whitesmoke;
+    width: 30%;
 }
-.contenedoriframe{
-    
+
+.contmapa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.contvideo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
 }
 iframe{
     display: inline-flex;
+    justify-content: center;
     flex-direction: column;
-    width: 500px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
     margin-top: 20px;
+    margin-left: 100px;
     margin-bottom: 10px;
+    
 }
 
 
