@@ -28,16 +28,6 @@ header{
     position: relative;
     bottom: 20px;
 }
-.contencalendario{
-    position: relative;
-    top: 15px;
-    left: 180px;
-}
-/*calendario*/
-input {    
-    margin: 2px;
-}
-
 /*orientacion y tamaño de imagen de logo*/
 .divheader #logo{
     position: absolute;
@@ -62,7 +52,6 @@ input {
     list-style:none;
     padding:3px 3px;
     z-index: 1;
-  
 }
 /* items del menu */
 #menu ul li {
@@ -70,7 +59,6 @@ input {
     background-color: whitesmoke;
     float: left;
     display: flex;
-   
 }
 /* enlaces del menu */
 #menu ul a {
@@ -115,6 +103,15 @@ a {
 /*Cambio de color menu navegacion*/
 a:hover {
     background-color: rgb(223, 217, 217);
+}
+.contencalendario{
+    position: relative;
+    top: 15px;
+    left: 180px;
+}
+/*calendario*/
+input {    
+    margin: 2px;
 }
 /*Footer*/
 .footer{
