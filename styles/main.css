@@ -28,6 +28,16 @@ header{
     position: relative;
     bottom: 20px;
 }
+.contencalendario{
+    position: relative;
+    top: 15px;
+    left: 180px;
+}
+/*calendario*/
+input {    
+    margin: 2px;
+}
+
 /*orientacion y tamaño de imagen de logo*/
 .divheader #logo{
     position: absolute;
