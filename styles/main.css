@@ -113,33 +113,57 @@ a:hover {
 input {    
     margin: 2px;
 }
-/*Footer*/
-.footer{
-    display: flex;
+footer {
+    background-color: whitesmoke;
     width: auto;
     height: auto;
-    margin: 1px;
-}
-.divfooter {
-    background-color: whitesmoke;
-    display: flex;
-    width: auto;
-    height: 90px;
-    justify-content:space-evenly;
-    position: relative;
     top:2px;
     margin-bottom: 15px;
     border-radius: 15px;
     border: 2px solid gray;
 }
+.agenda{
+        
+        width:auto;
+        height: 50%;
+        border-radius: 15px;
+        padding: 15px;
+        display: block;
+        text-align: center;
+    }    
+.caja{
+    width: 25%;
+    height: 50%;
+    padding: 15px;
+    float: left;
+    border: 2px solid gray;
+    border-radius: 15px;
+}
+.caja>h3{
+    text-align: center;
+}
+.caja>p{
+    text-align: center;
+}
 .redes{
-    display: flex;
-    margin-top: 5px;
+    width:auto;
+    height: 50%;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.redes>h3{
+    text-align: center;
+}
+.redes>p{
+    text-align: center;
+}
+.redes>a>img:hover{
+    background-color: gray ;
+
 }
 #correo{
-    display: flex;
-    position: absolute;
-    margin-top: 50px;
+   text-align: center;
 }
 
 
