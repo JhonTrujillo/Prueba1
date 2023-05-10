@@ -56,7 +56,7 @@ div>img{
 .noticia>p{
     color: whitesmoke;
 }
-.card2{
+/* .card2{
     width: auto;
     height: 520px;
     display:flex;
@@ -74,7 +74,7 @@ div>img{
     border-radius: 15px;
     z-index: 1;
     top: 10px;
-}
+} */
 .conteventos{
     width: auto;
     height: 520px;
