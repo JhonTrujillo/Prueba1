@@ -13,7 +13,7 @@
 </head>
 <body>
     <!-- los styles de header, footer se encuentran en main.css -->
-    <header> 
+    <header id="arriba"> 
         <h3 class="titulo">Liceo Los Colibris</h3>
         <div class="divheader">
             <a href="login.html"><img id="login" src="images/login2.jpg" alt="logo">
@@ -40,56 +40,7 @@
             </nav>
          </div>
     </header>
-    <!-- los styles de banner y Card se encuentran en index.html -->
-    <!-- banner realizado en html y css -->
-     <!-- <div id="contitembanner">
-            <div class="itembanner" id="itembanner-1" >
-            <div class="imgbanner" id="imgbanner-1">
-            <img src="images/banner.jpg" height="100%" width="100%">
-     </div>
-            <div class="flechasbanner">
-                <a href="#itembanner-3">
-                    <i class="fa-solid fa-arrow-left"></i>
-                </a>
-                <a href="#itembanner-2">
-                    <i class="fa-solid fa-arrow-right"></i>
-                </a>
-            </div>
-        </div>
-        <div class="itembanner" id="itembanner-2" >
-            <div class="imgbanner" id="imgbanner-2">
-                <img src="images/banner2.jpg" height="100%" width="100%">
-            </div>
-            <div class="flechasbanner">
-                <a href="#itembanner-1">
-                    <i class="fa-solid fa-arrow-left"></i>
-                </a>
-                <a href="#itembanner-3">
-                    <i class="fa-solid fa-arrow-right"></i>
-                </a>
-            </div>
-        </div>    
-        <div class="itembanner" id="itembanner-3">
-            <div class="imgbanner" id="imgbanner-3">
-                <img src="images/banner3.jpg" height="100%" width="100%">
-            </div>
-            <div class="flechasbanner">
-                <a href="#itembanner-2">
-                    <i class="fa-solid fa-arrow-left"></i>
-                </a>
-                <a href="#itembanner-1">
-                    <i class="fa-solid fa-arrow-right"></i>
-                </a>
-            </div>
-        </div>
-        </div>
-    </div>
-        <div id="contpuntos">
-            <a href="#itembanner-3">*</a>
-            <a href="#itembanner-1">*</a>
-            <a href="#itembanner-2">*</a>
-        </div> -->
-        <div id="carouselExampleCaptions" class="carousel slide">
+    <div id="carouselExampleCaptions" class="carousel slide">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -154,13 +105,12 @@
         </div>
     </div>
     <div class="noticia">
-        <p>Ultimas Noticias
-        </p>
+        <p>Ultimas Noticias</p>
     </div>
     <p>
-        <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Noticias</a>
-        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Reuniones</button>
-        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Alternar</button>
+        <a class="btn btn-secondary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Noticias</a>
+        <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Reuniones</button>
+        <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Alternar</button>
       </p>
       <div class="row">
         <div class="col">
@@ -178,33 +128,6 @@
           </div>
         </div>
       </div>
-    
-    <!-- <div class="card2">
-        <div class="itemcard2">
-            <h3 class="cardtitulo"> Estudiantes</h3>
-            <div class="cardimg">
-                <img src="images/cardprimaria.jpg">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque laborum quibusdam quod dolor, officiis quasi tempora soluta porro. Sapiente quisquam earum tempora pariatur fugit modi culpa consectetur mollitia cum sequi.</p>
-            </div>
-            <a href="#" class="cardmatricula"> Matriculate </a>
-        </div>
-        <div class="itemcard2">
-            <h3 class="cardtitulo"> Profesores</h3>
-            <div class="cardimg">
-                <img src="images/cardprimaria.jpg">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, modi! Quasi iure tempore animi, repudiandae alias doloribus quisquam aperiam consequuntur voluptatum obcaecati delectus distinctio omnis modi facilis dolores nisi perferendis?</p>
-            </div>
-            <a href="#" class="cardmatricula">Matriculate</a>
-        </div>
-        <div class="itemcard2">
-            <h3 class="cardtitulo">Perspectivas</h3>
-            <div class="cardimg">
-                <img src="images/cardprimaria.jpg" >
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam molestiae animi quia sunt deleniti dicta a et dolorum voluptate. Minus repudiandae recusandae esse sit illo architecto eius corrupti consequuntur fugit!</p>
-            </div>
-            <a href="#" class="cardmatricula">Matriculate</a>
-        </div>
-    </div> -->
     <div class="conteventos">
         <h3>Eventos que Cambian la vida </h3>
         <div class="evento">
@@ -244,9 +167,13 @@
                         <a href="https://www.twitter.com/" target="_blank">
                         <img id="twitter" src="images/twitter.png" alt="logo">
                     </a>
+                    <a href="#arriba" target="" id="subir">
+                        <img src="images/arriba.svg" alt="arriba" height="50px" width="50px">
+                    </a>
                     <address id="correo">Email: Liceocolibris@edu.com</address>
                     <p>Copyrigth &copy; Liceo los Colibris por Luxur90</p>
             </div>
+           
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>        
 </body>

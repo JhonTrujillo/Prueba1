@@ -51,30 +51,18 @@ div>img{
 .noticia{
     text-align: left;
     font-size: 60px;
-    background-color: black;
+    background-color: rgb(105, 104, 104);
+    margin-top: 5px;
+    border-radius: 15px;
 }
 .noticia>p{
     color: whitesmoke;
+    
 }
-/* .card2{
-    width: auto;
-    height: 520px;
-    display:flex;
+p{
+    display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction:row;
-}  
-.itemcard2{
-    position: relative;
-    width: 500px;
-    height: 450px;
-    box-shadow:0 0 5px gray ;
-    text-align: center;
-    padding: 10px 0;
-    border-radius: 15px;
-    z-index: 1;
-    top: 10px;
-} */
+}
 .conteventos{
     width: auto;
     height: 520px;
@@ -82,6 +70,8 @@ div>img{
     justify-content: left;
     align-items: center;
     background-color: beige;
+    border-radius: 15px;
+    margin-bottom: 5px;
 }
 .conteventos>h3{
     font-size: 50px;
@@ -92,11 +82,14 @@ div>img{
     text-align: center;
     margin: 15px;
     padding: 10px;
+    border-radius: 15px;
 }
 .evento>p:hover{
     background-color: whitesmoke;
     border: 2px solid gray
-    
+}
+#subir{
+  
 }
 
 
