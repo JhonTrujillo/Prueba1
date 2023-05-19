@@ -7,8 +7,8 @@ body{
 /* orientacion de titulo*/
 .titulo{
     position: absolute;
-    top: 40px;
-    left: 460px;
+    top: 65px;
+    left:30px;
     color: black;
     font-family:Arial, Helvetica, sans-serif;
 }
@@ -17,36 +17,57 @@ body{
 header{
     background-color: whitesmoke;
     width: auto;
-    height: 70px;
+    height: 100px;
     padding: 1px 1px;
     margin: 1px;   
     border-radius: 15px;
     border: 2px solid grey;
 }
-.divheader{
-    justify-content: center;
-    position: relative;
-    bottom: 20px;
-}
 /*orientacion y tamaño de imagen de logo*/
-.divheader #logo{
-    position: absolute;
-    width:50px;
-    height:50px;
-    left: 550px;
-    top: 20px;
+#logo{
+    position:absolute;
+    width: 70px;;
+    height:70px;
+    left: 60px;
+    top: 5px;
 }
-/*Orientacion y tamaño de imagen de login*/
-.divheader #login{
-    width: 35px;
-    height: 35px;
+ /*Orientacion y tamaño de imagen de login*/
+#login{
+    width:70px;
+    height:70px;
     position: absolute;
-    top: 30px;
-    right: 550px;
+    top: 20px;
+    right: 30px;
+}
+/*calendario*/
+#start{
+    position: absolute;
+    top:40px;
+    right:120px;
+}
+/*Menu Hamburguesa*/
+.ham{
+    /* display: none; */
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    margin-top: 15px;
+    position: absolute;
+    right: 280px;
+}
+.ham span{
+    display: block;
+    background-color: rgb(245, 242, 242);
+    height: 3px;
+    width: 28px;
+    margin: 5px auto;
+    border-radius: 2px;
 }
 /*item menu de barra de navegacion*/
 /* menu */
-#menu ul {
+nav ul {
     display: flex;
     justify-content: center;
     list-style:none;
@@ -54,28 +75,27 @@ header{
     z-index: 1;
 }
 /* items del menu */
-#menu ul li {
+nav ul li {
     top: 15px;
     background-color: whitesmoke;
     float: left;
     display: flex;
+    position:relative;
+    justify-content: center;
+    margin:0;
+    padding:0; 
+    
 }
 /* enlaces del menu */
-#menu ul a {
+nav ul a {
     color: black;
     font-size:15px;
     letter-spacing:1px;
     padding: 10px;
-}
-/* items del menu */
- #menu ul li {
-    position:relative;
-    justify-content: center;
-    margin:0;
-    padding:0;
+    
 }
 /* menu desplegable */
-#menu ul ul {
+nav ul ul {
     display:none;
     position:absolute;
     top:100%;
@@ -83,18 +103,19 @@ header{
     padding:0;
    }
 /* items del menu desplegable */
-#menu ul ul li {
+.enlaces-menu ul ul li {
     float:none;
     width:150px
 }
 /* enlaces de los items del menu desplegable */
-#menu ul ul a {
+.enlaces-menu ul a {
     line-height:120%;
     padding:10px 15px;
 }
 /* items del menu desplegable al pasar el ratón */
-#menu ul li:hover > ul {
+.enlaces-menu li:hover  > ul{
     display:block;
+    
 }
 /*quita el subrayado de un hipervinculo*/
 a {
@@ -104,15 +125,7 @@ a {
 a:hover {
     background-color: rgb(223, 217, 217);
 }
-.contencalendario{
-    position: relative;
-    top: 12px;
-    left: 100px;
-}
-/*calendario*/
-input {    
-    margin: 2px;
-}
+
 footer {
     background-color: whitesmoke;
     width: auto;
