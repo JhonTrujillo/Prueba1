@@ -12,7 +12,6 @@ body{
     color: black;
     font-family:Arial, Helvetica, sans-serif;
 }
-
 /*Encabezado*/
 header{
     background-color: whitesmoke;
@@ -45,6 +44,23 @@ header{
     top:40px;
     right:120px;
 }
+#barranav{
+    display: none;
+    
+    
+}
+#btmostrar{
+    display:block;
+    position: absolute;
+    top:30px;
+    left: 140px;
+}
+#btocultar{
+    display:none;
+    position: absolute;
+    top:30px;
+    left: 140px;
+}
 /*Menu Hamburguesa*/
 .ham{
     /* display: none; */
@@ -63,12 +79,11 @@ header{
     height: 3px;
     width: 28px;
     margin: 5px auto;
-    
 }
 /*item menu de barra de navegacion*/
 /* menu */
 nav ul {
-    display: flex;
+    display: flex; 
     justify-content: center;
     list-style:none;
     padding:3px 3px;
@@ -92,7 +107,6 @@ nav ul a {
     font-size:15px;
     letter-spacing:1px;
     padding: 15px;
-    
 }
 /* menu desplegable */
 nav ul ul {
@@ -126,7 +140,6 @@ a:hover {
     background-color: rgb(223, 217, 217);
     border-radius: 15px;
 }
-
 footer {
     background-color: whitesmoke;
     width: auto;

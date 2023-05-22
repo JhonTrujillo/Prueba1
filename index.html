@@ -10,12 +10,12 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/index.css">
     <script src="https://kit.fontawesome.com/e425e7a0eb.js" crossorigin="anonymous"></script>
-    <script src="js/index.js"></script>
+    
 </head>
 <body>
     <!-- los styles de header, footer se encuentran en main.css -->
     <header id="arriba"> 
-      <nav>
+      
         <h3 class="titulo">Liceo Colibris</h3>
         <a href="login.html"><img id="login" src="images/login2.jpg" alt="logo">
         <a href="index.html"><img id="logo" src="images/logo.png" alt="logo">
@@ -23,8 +23,8 @@
             value="2023-04-05"
             min="2018-01-01" max="2050-12-31">
           
-          <ul class="enlaces-menu">
-              <button id="boton">Mostrar</button>
+        <nav  id="barranav">
+           <ul class="enlaces-menu" >
               <li><a href="quienessomos.html">Quienes Somos</a></li>
               <li><a href="contacto.html">Contactenos</a></li>
               <li><a href="#">Horarios</a>
@@ -34,14 +34,16 @@
                   <li><a href="horarios.html">Horario Primaria</a></li>
                 </ul>
               </li>
-          </ul>
+            </ul>
             <button class="ham" type="button">
               <span class="br-1"></span>
               <span class="br-2"></span>
             </button>
-            
-      </nav>
-         
+        </nav>
+        <div>
+          <button id="btmostrar" onclick="mostrar();">Mostrar</button>
+          <button id="btocultar" onclick="ocultar();">Ocultar</button>
+        </div>
     </header>
     <div id="carouselExampleCaptions" class="carousel slide">
             <div class="carousel-indicators">
