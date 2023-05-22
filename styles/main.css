@@ -53,7 +53,7 @@ header{
     margin: 0;
     padding: 0;
     background-color:black;
-    margin-top: 15px;
+    top: 35px;
     position: absolute;
     right: 280px;
 }
@@ -63,7 +63,7 @@ header{
     height: 3px;
     width: 28px;
     margin: 5px auto;
-    border-radius: 2px;
+    
 }
 /*item menu de barra de navegacion*/
 /* menu */
@@ -91,7 +91,7 @@ nav ul a {
     color: black;
     font-size:15px;
     letter-spacing:1px;
-    padding: 10px;
+    padding: 15px;
     
 }
 /* menu desplegable */
@@ -124,6 +124,7 @@ a {
 /*Cambio de color menu navegacion*/
 a:hover {
     background-color: rgb(223, 217, 217);
+    border-radius: 15px;
 }
 
 footer {
