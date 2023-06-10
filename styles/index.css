@@ -20,9 +20,9 @@ div>img{
     text-align: block; 
     padding: 5px 0;
     display:flex;
-    justify-content: center;
     align-items: baseline; 
-    flex-direction:row;
+    flex-wrap: wrap;
+    align-content: space-around;
 }  
 .creartarjeta{
     box-shadow:0 0 5px gray ;
