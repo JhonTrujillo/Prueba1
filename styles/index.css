@@ -19,43 +19,31 @@ div>img{
     height:400px;
     text-align: block; 
     padding: 5px 0;
-    
     display:flex;
     justify-content: center;
     align-items: baseline; 
     flex-direction:row;
 }  
-.card>div{
+.creartarjeta{
     box-shadow:0 0 5px gray ;
     border-radius: 15px; 
     margin-top: 5px;
     padding: 5px;
 }
-.card>div>h3{
+.creartarjeta>h3{
     text-align: center;
 }
-.card>div>img{
+.creartarjeta>img{
     width: 400px;
     height: 250px;
-    
-   
     border: 10px solid;
     border-color: aliceblue;
     border-top-color: rgb(207, 172, 73);        
-} 
-
-#contcard>p{
-      text-align: justify;
-      margin: auto;
 }
-
-/* #secundaria{
-    border-top-color: rgb(31, 80, 170);
-}
-#curso{
-    border-top-color: rgb(190, 46, 20);
-}  */
-
+ .creartarjeta>a{
+    display: flex;
+    justify-content: center;
+}  
 .noticia{
     text-align: left;
     font-size: 60px;
