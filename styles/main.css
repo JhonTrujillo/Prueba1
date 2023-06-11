@@ -22,6 +22,15 @@ header{
     border-radius: 15px;
     border: 2px solid grey;
 }
+#imglogo{
+    background-color: brown;
+    position: absolute;
+    left: 5px;
+}
+#imglogin{
+    background-color: rgb(42, 165, 118);
+    
+}
 /*orientacion y tamaño de imagen de logo*/
 #logo{
     position:absolute;
@@ -38,16 +47,8 @@ header{
     top: 20px;
     right: 30px;
 }
-/*calendario*/
-#start{
-    position: absolute;
-    top:40px;
-    right:120px;
-}
 #barranav{
     display: none;
-    
-    
 }
 #btmostrar{
     display:block;
@@ -61,24 +62,10 @@ header{
     top:30px;
     left: 140px;
 }
-/*Menu Hamburguesa*/
-.ham{
-    /* display: none; */
-    border: none;
-    cursor: pointer;
-    margin: 0;
-    padding: 0;
-    background-color:black;
-    top: 35px;
-    position: absolute;
-    right: 280px;
-}
-.ham span{
-    display: block;
-    background-color: rgb(245, 242, 242);
-    height: 3px;
-    width: 28px;
-    margin: 5px auto;
+/*nav*/
+nav{
+    width: 40%;
+    margin: auto;
 }
 /*item menu de barra de navegacion*/
 /* menu */
@@ -99,7 +86,6 @@ nav ul li {
     justify-content: center;
     margin:0;
     padding:0; 
-    
 }
 /* enlaces del menu */
 nav ul a {
@@ -123,22 +109,34 @@ nav ul ul {
 }
 /* enlaces de los items del menu desplegable */
 .enlaces-menu ul a {
-    line-height:120%;
-    padding:10px 15px;
+    line-height:80%;
+    padding:15px 15px;
 }
 /* items del menu desplegable al pasar el ratón */
 .enlaces-menu li:hover  > ul{
     display:block;
-    
 }
 /*quita el subrayado de un hipervinculo*/
-a {
+.enlaces-menu a {
     text-decoration: none; 
  }
 /*Cambio de color menu navegacion*/
-a:hover {
+.enlaces-menu a:hover {
     background-color: rgb(223, 217, 217);
     border-radius: 15px;
+}
+/*Contenedor buscador*/
+.ctn-buscador{
+    position:absolute;
+    width: 17%;
+    right: 120px;
+    top: 35px;
+    border: solid 1px whitesmoke;
+}
+/*Contenedor que muestra la busqueda*/
+#listadoBusqueda{
+    text-align: center;
+    background-color: whitesmoke;
 }
 footer {
     background-color: whitesmoke;
