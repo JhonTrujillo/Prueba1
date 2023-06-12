@@ -3,19 +3,19 @@ const programas = [
     {
         titulo:'Primaria',
         imagen:'images/primaria.jpg',
-        descripcion:'Niveles comprendidos de jardin a quinto',
+        descripcion:'Jardin a Quinto',
         enlace:'primaria.html',
     },
     {
         titulo:'Secundaria',
         imagen:'images/secundaria.avif',
-        descripcion:'Niveles comprendidos de sexto a once',
+        descripcion:'Sexto a Once',
         enlace:'secundaria.html',
     },
     {
         titulo:'Cursos',
         imagen:'images/clasesvacacionales.jpg',
-        descripcion:'Cursos de refuerzo',
+        descripcion:'Cursos - Refuerzo',
         enlace:'cursos.html',
     }
 ];

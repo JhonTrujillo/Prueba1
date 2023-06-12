@@ -33,11 +33,11 @@ div>img{
     text-align: center;
 }
 .creartarjeta>img{
-    width: 400px;
+    width: 250px;
     height: 250px;
-    border: 10px solid;
+    border: 5px solid;
     border-color: aliceblue;
-    border-top-color: rgb(207, 172, 73);        
+           
 }
  .creartarjeta>a{
     display: flex;
@@ -45,14 +45,10 @@ div>img{
 }  
 .noticia{
     text-align: left;
-    font-size: 60px;
-    background-color: rgb(105, 104, 104);
-    margin-top: 5px;
+    font-size: 30px;
+    background-color: whitesmoke;
+    margin-top: 3px;
     border-radius: 15px;
-}
-.noticia>p{
-    color: whitesmoke;
-    
 }
 p{
     display: flex;
