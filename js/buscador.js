@@ -37,6 +37,10 @@ function realizarBusqueda(){
     {
         titulo:'Vision',
         enlace:'quienessomos.html',
+    },
+    {
+        titulo:'Cursos',
+        enlace:'cursos.html', 
     }
  ]
  //creamos una instancia de la clase buscador
