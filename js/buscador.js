@@ -1,5 +1,6 @@
 // se crea evento del boton buscar que se encuentra en index.html
 function realizarBusqueda() {
+    console.log("realizarBusqueda");
     //se crea constante del input con su id buscador
     //guarda la informacion digitada en el input
     //el .value accede al valor del input   
@@ -47,10 +48,7 @@ function realizarBusqueda() {
     const buscador = new Buscador(datos);
     // se crea constructor de busqueda
     const resultados = buscador.buscar(infoBusqueda)
-
     mostrarInformacion(resultados);
-capturaTecla();
-
 }
 function mostrarInformacion(informacion) {
     const mostrarInfo = document.getElementById("listadoBusqueda");
@@ -59,15 +57,16 @@ function mostrarInformacion(informacion) {
         const enlace = document.createElement("a");
         enlace.textContent = objeto.titulo;
         enlace.href = objeto.enlace;
-
         mostrarInfo.appendChild(enlace)
     }
 }
-function capturaTecla() {
-    let teclaEnter = event.keyCode;
+//Funcion buscar con enter
+function capturaTecla(evento) {
+    let teclaEnter = evento.keyCode;
     if (teclaEnter == 13) {
-        console.log("Enter Presionado");
-        
+        // console.log("Enter Presionado", evento);
+        realizarBusqueda();
+
     }
 }
 
