@@ -33,10 +33,11 @@
         </nav>
         <div class="ctn-buscador">
             <!-- Espacio del buscador -->
-                <input type="text" name="buscador" id="buscador" placeholder="¿Que desea buscar?">
-                <button onclick="realizarBusqueda()"><i class="fa-solid fa-magnifying-glass"></i></button><!-- el metodo onclick ejecuta la funcion realizarBusqueda que se encuentra en buscador.js -->
-                <div id="listadoBusqueda"></div> 
-            </div> 
+            <input type="text" name="buscador" id="buscador" placeholder="¿Que desea buscar?" onkeypress="capturaTecla(event)">
+            <!-- el metodo onclick ejecuta la funcion realizarBusqueda que se encuentra en buscador.js -->
+            <button onclick="realizarBusqueda()"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <div id="listadoBusqueda"></div>
+          </div>
     </header>
     <div class="enconstruccion">
         <img src="images/construccion.png" alt="construccion">
