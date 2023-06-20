@@ -2,46 +2,42 @@
 .contformulario{
    
     width: auto;
-    height: 1000px;
+    height: auto;
 }
 
 form{
     display: flex;
     flex-wrap: wrap;
     width: 40%;
-    margin-top: 200px;
-    margin-left: 250px;
-    margin-right: 100px;
-    border: 3px solid gray;
+    margin: auto;
+    /* border: 1px solid gray; */
     border-radius: 15px;
-    float: left;
+    /* float: center; */
     background-color: whitesmoke;
     
 }
 form>input{
     width: 90%;
     height: 30px;
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-bottom: 10px;
+    margin: auto;
+    margin-bottom: 10px; 
+    padding: 20px;
     border-radius: 15px;
     border-color: gray;
     font-size: 15px;
 }
 form>textarea{
-    
     margin:auto;
 }
-form button{
+form>button{
     background-color: gray;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: auto;
     padding: 10px;
     width: 30%;
     border-radius: 15px;
     box-shadow: 5px 5px 5px whitesmoke;
     font-size: 20px;
-    margin-left: 290px;
+    
 }
 form button:hover{
     color: whitesmoke;
@@ -67,7 +63,7 @@ iframe{
     width: 600px;
     height: 400px;
     margin-top: 20px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     margin-bottom: 10px;
     
 }
